@@ -1,0 +1,877 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Libraries/Utils",
+					"jsonFile" : "directory-Libraries.Utils-Debug-919be9bb43f4cc1a58be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Libraries/Utils",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "Libraries/MCLib",
+					"jsonFile" : "directory-Libraries.MCLib-Debug-d6e52e77ad0a0394ea9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Libraries/MCLib",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "Libraries/googletest_1_14",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-Libraries.googletest_1_14-Debug-5425375b65460ecccef4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Libraries/googletest_1_14"
+				},
+				{
+					"build" : "Libraries/googletest_1_14/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-Libraries.googletest_1_14.googlemock-Debug-6a9963215168fb2baad7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "Libraries/googletest_1_14/googlemock",
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				},
+				{
+					"build" : "Libraries/googletest_1_14/googletest",
+					"jsonFile" : "directory-Libraries.googletest_1_14.googletest-Debug-ed1f623c156aa1e0b0d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "Libraries/googletest_1_14/googletest",
+					"targetIndexes" : 
+					[
+						30,
+						31
+					]
+				},
+				{
+					"build" : "Lectures/Lecture01",
+					"jsonFile" : "directory-Lectures.Lecture01-Debug-6a41755aee7182125eca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture01",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Lectures/Lecture010203",
+					"jsonFile" : "directory-Lectures.Lecture010203-Debug-2467396c795a08d91942.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture010203",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Lectures/Lecture05",
+					"jsonFile" : "directory-Lectures.Lecture05-Debug-3c9e09f060e77b83bcb3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture05",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Lectures/Lecture06",
+					"jsonFile" : "directory-Lectures.Lecture06-Debug-0aa9434337acea1f0810.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture06",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "Lectures/Lecture0708",
+					"jsonFile" : "directory-Lectures.Lecture0708-Debug-c756b8ee23694f51b566.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture0708",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Lectures/Lecture09",
+					"jsonFile" : "directory-Lectures.Lecture09-Debug-916d3317098a9ca2bf81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture09",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "Lectures/Lecture10",
+					"jsonFile" : "directory-Lectures.Lecture10-Debug-c9e84f693d17253b2277.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture10",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "Lectures/Lecture11",
+					"jsonFile" : "directory-Lectures.Lecture11-Debug-a405abf3bfa5b4e1ffef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture11",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Lectures/Lecture1314",
+					"jsonFile" : "directory-Lectures.Lecture1314-Debug-00f139b970a6ec65d05d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture1314",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "Lectures/Lecture1516",
+					"jsonFile" : "directory-Lectures.Lecture1516-Debug-1227c28d393ab3f07367.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Lecture1516",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "Lectures/Examples_TemplateDesignPattern",
+					"jsonFile" : "directory-Lectures.Examples_TemplateDesignPattern-Debug-be742c0d8d0d01afcba2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lectures/Examples_TemplateDesignPattern",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Practicals/Practical01",
+					"jsonFile" : "directory-Practicals.Practical01-Debug-22a01d08b1fa18872170.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Practicals/Practical01",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "Practicals/Practical02",
+					"jsonFile" : "directory-Practicals.Practical02-Debug-3f9bb403167ab309ed82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Practicals/Practical02",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "Practicals/Practical03",
+					"jsonFile" : "directory-Practicals.Practical03-Debug-735e6eb721d7800389b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Practicals/Practical03",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "Practicals/Practical04",
+					"jsonFile" : "directory-Practicals.Practical04-Debug-01e87fe37131459febd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Practicals/Practical04",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "Practicals/Practical05",
+					"jsonFile" : "directory-Practicals.Practical05-Debug-4ce37b8e24f4940a81be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Practicals/Practical05",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "Practicals/Practical06",
+					"jsonFile" : "directory-Practicals.Practical06-Debug-8fab979c3d02ca3761b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Practicals/Practical06",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "Practicals/Practical07",
+					"jsonFile" : "directory-Practicals.Practical07-Debug-2074e682d310c47c5249.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Practicals/Practical07",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "SampleExam2015/SampleExam2015MTQ1",
+					"jsonFile" : "directory-SampleExam2015.SampleExam2015MTQ1-Debug-64b70077f852b1c09099.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SampleExam2015/SampleExam2015MTQ1",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "SampleExam2015/SampleExam2015MTQ2",
+					"jsonFile" : "directory-SampleExam2015.SampleExam2015MTQ2-Debug-1536f0f3d9bcf4680a5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SampleExam2015/SampleExam2015MTQ2",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "SampleExam2015/SampleExam2015MTQ3",
+					"jsonFile" : "directory-SampleExam2015.SampleExam2015MTQ3-Debug-f2a27dfcee0c4527c1a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SampleExam2015/SampleExam2015MTQ3",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "SampleExam2015/SampleExam2015MTQ4",
+					"jsonFile" : "directory-SampleExam2015.SampleExam2015MTQ4-Debug-62d89d5ee0ef94f7e727.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SampleExam2015/SampleExam2015MTQ4",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "Exam/ExamQ1",
+					"jsonFile" : "directory-Exam.ExamQ1-Debug-ec5dc2f8631af5d57732.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exam/ExamQ1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Exam/ExamQ2",
+					"jsonFile" : "directory-Exam.ExamQ2-Debug-4aff49f30a1ce7af47a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exam/ExamQ2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Exam/ExamQ3",
+					"jsonFile" : "directory-Exam.ExamQ3-Debug-0ab07d52196617459475.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exam/ExamQ3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Exam/ExamQ4",
+					"jsonFile" : "directory-Exam.ExamQ4-Debug-8579fd55ac5db6eb893e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exam/ExamQ4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					],
+					"name" : "CppCourse",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						30,
+						31
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 28,
+					"id" : "Exam2023Q1::@7c322340875810008fca",
+					"jsonFile" : "target-Exam2023Q1-Debug-fea468a8ac4f89a58f3a.json",
+					"name" : "Exam2023Q1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "Exam2023Q2::@b95094f53f8894505598",
+					"jsonFile" : "target-Exam2023Q2-Debug-3044a2761b6f2965de91.json",
+					"name" : "Exam2023Q2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "Exam2023Q3::@b892c9630bfb08d8cef3",
+					"jsonFile" : "target-Exam2023Q3-Debug-f2c2ed884ee992567e41.json",
+					"name" : "Exam2023Q3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "Exam2023Q4::@752cbb4a90cf22cfa8fa",
+					"jsonFile" : "target-Exam2023Q4-Debug-ce07d33f2a63bac648e4.json",
+					"name" : "Exam2023Q4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Examples_TemplateDesignePattern::@f091d9c6a1d08c836f4e",
+					"jsonFile" : "target-Examples_TemplateDesignePattern-Debug-32f2965ae2ede8c2b296.json",
+					"name" : "Examples_TemplateDesignePattern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Lecture01::@19bfc42f06b4b7cd017f",
+					"jsonFile" : "target-Lecture01-Debug-58671fd480d6ea9f7b93.json",
+					"name" : "Lecture01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Lecture010203::@fc3c3c36d03bdbc28bcd",
+					"jsonFile" : "target-Lecture010203-Debug-f09852bced461cd62c5f.json",
+					"name" : "Lecture010203",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Lecture05::@76e28e8c15b4079f7837",
+					"jsonFile" : "target-Lecture05-Debug-7778668860a8c817ed9f.json",
+					"name" : "Lecture05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Lecture06::@fdcd77ed6ecfc9b96bf3",
+					"jsonFile" : "target-Lecture06-Debug-87eaf8247e506b2c082d.json",
+					"name" : "Lecture06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Lecture0708::@c911157f3d0a3c8ecd37",
+					"jsonFile" : "target-Lecture0708-Debug-10fe4d48c7c2f1ea3e47.json",
+					"name" : "Lecture0708",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Lecture09::@ccde8b75cc15b4af2f54",
+					"jsonFile" : "target-Lecture09-Debug-194862672a3350461431.json",
+					"name" : "Lecture09",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Lecture10::@1f028c052413b1cc1c00",
+					"jsonFile" : "target-Lecture10-Debug-25cdce3a8eccc234c541.json",
+					"name" : "Lecture10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Lecture11::@1cc053ec77a7515f4da7",
+					"jsonFile" : "target-Lecture11-Debug-ca912d3a835ec3ed1d27.json",
+					"name" : "Lecture11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Lecture1314::@4171d463b4cc0211888e",
+					"jsonFile" : "target-Lecture1314-Debug-367035f0a39530562102.json",
+					"name" : "Lecture1314",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "Lecture1516::@56f92d196f07df8aa006",
+					"jsonFile" : "target-Lecture1516-Debug-aea49ce18b4becfc6e65.json",
+					"name" : "Lecture1516",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MCLib::@33f9e8de20277dc9d39a",
+					"jsonFile" : "target-MCLib-Debug-2ba07ed6b905a6033f0e.json",
+					"name" : "MCLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "Practical01::@83c83533a701168de076",
+					"jsonFile" : "target-Practical01-Debug-64924e499f63822b09c2.json",
+					"name" : "Practical01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "Practical02::@e9c2a9c0dd3df8cb14a8",
+					"jsonFile" : "target-Practical02-Debug-f625029a6876a2d0860d.json",
+					"name" : "Practical02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "Practical03::@d09b6a85d3fb82260c0d",
+					"jsonFile" : "target-Practical03-Debug-a773872a8f5b31481221.json",
+					"name" : "Practical03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "Practical04::@102484e9df8b2074ee1c",
+					"jsonFile" : "target-Practical04-Debug-a344cba32e072f43f459.json",
+					"name" : "Practical04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "Practical05::@cefc483705d2c67af3b3",
+					"jsonFile" : "target-Practical05-Debug-e5f2e0d645a65dec472b.json",
+					"name" : "Practical05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "Practical06::@dd67545560713b229111",
+					"jsonFile" : "target-Practical06-Debug-ae74247621b45b35ad1e.json",
+					"name" : "Practical06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "Practical07::@5b57807e05d02f61a277",
+					"jsonFile" : "target-Practical07-Debug-e6af1fcff6a28498649c.json",
+					"name" : "Practical07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "SampleExamQ1::@dd027fbba1b058e2dc20",
+					"jsonFile" : "target-SampleExamQ1-Debug-e636a529e2e405a09fe7.json",
+					"name" : "SampleExamQ1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "SampleExamQ2::@a0f93dfbb19263946055",
+					"jsonFile" : "target-SampleExamQ2-Debug-acb38d36a9298434462e.json",
+					"name" : "SampleExamQ2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "SampleExamQ3::@b8030ed456d42ea23765",
+					"jsonFile" : "target-SampleExamQ3-Debug-256d5f41add8cfd768fb.json",
+					"name" : "SampleExamQ3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "SampleExamQ4::@6f35173a15220cb83d20",
+					"jsonFile" : "target-SampleExamQ4-Debug-5d72790b21832ca7f4eb.json",
+					"name" : "SampleExamQ4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Utils::@05bc35b27d4db3ba0ef5",
+					"jsonFile" : "target-Utils-Debug-ef87760c613ffced438d.json",
+					"name" : "Utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@6d03af880cd91be7289d",
+					"jsonFile" : "target-gmock-Debug-6823dbf6391884993d09.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@6d03af880cd91be7289d",
+					"jsonFile" : "target-gmock_main-Debug-b8770448b60b7643ce90.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@74b7ad5ef13d931557d7",
+					"jsonFile" : "target-gtest-Debug-8671303768c46f9fc0ff.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@74b7ad5ef13d931557d7",
+					"jsonFile" : "target-gtest_main-Debug-abf8caf6b60aa993b5c5.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/cmake-build-debug",
+		"source" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

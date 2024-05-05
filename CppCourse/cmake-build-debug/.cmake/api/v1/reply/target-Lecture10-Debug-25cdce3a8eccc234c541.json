@@ -1,0 +1,276 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Lectures/Lecture10/Lecture10"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"Lectures/Lecture10/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "COURSE_OUTPUT_DIR=\"/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/boostRoot"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Lectures"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Practicals"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/SampleExam2015"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Exam"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@74b7ad5ef13d931557d7"
+		}
+	],
+	"id" : "Lecture10::@1f028c052413b1cc1c00",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib/libgtest.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Lecture10",
+	"nameOnDisk" : "Lecture10",
+	"paths" : 
+	{
+		"build" : "Lectures/Lecture10",
+		"source" : "Lectures/Lecture10"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Lectures/Lecture10/Src/Examples.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Lectures/Lecture10/Src/Lecture10.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Lectures/Lecture10/Src/bitManipulation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Lectures/Lecture10/BitManipTests.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Lectures/Lecture10/ExampleTests.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Lectures/Lecture10/Examples.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Lectures/Lecture10/bitManipulationExamples.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

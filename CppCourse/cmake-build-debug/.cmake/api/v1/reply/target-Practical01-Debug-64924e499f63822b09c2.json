@@ -1,0 +1,272 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Practicals/Practical01/Practical01"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"Practicals/Practical01/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "COURSE_OUTPUT_DIR=\"/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/boostRoot"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Lectures"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Practicals"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/SampleExam2015"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Exam"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Utils::@05bc35b27d4db3ba0ef5"
+		}
+	],
+	"id" : "Practical01::@83c83533a701168de076",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "Libraries/Utils/libUtils.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Practical01",
+	"nameOnDisk" : "Practical01",
+	"paths" : 
+	{
+		"build" : "Practicals/Practical01",
+		"source" : "Practicals/Practical01"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practicals/Practical01/Src/MonteCarlo1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practicals/Practical01/Src/MonteCarlo2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practicals/Practical01/Src/Norm2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practicals/Practical01/Src/NormInf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practicals/Practical01/Src/Practical01.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Practicals/Practical01/Src/callAt1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Practicals/Practical01/Practical01Exercises.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

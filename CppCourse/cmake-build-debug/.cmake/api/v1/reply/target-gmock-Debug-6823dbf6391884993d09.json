@@ -1,0 +1,250 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libgmock.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"cxx_library_with_type",
+			"cxx_library",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"Libraries/googletest_1_14/googletest/cmake/internal_utils.cmake",
+			"Libraries/googletest_1_14/googlemock/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 210,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 34,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 19,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 27,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fcolor-diagnostics"
+				},
+				{
+					"fragment" : " -DGTEST_HAS_PTHREAD=1  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "COURSE_OUTPUT_DIR=\"/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/boostRoot"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Lectures"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Practicals"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/SampleExam2015"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Exam"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14/googlemock/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14/googlemock"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14/googletest/include"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "/Users/jelmerbennema/Documents/Oxford/MSc/Michaelmas/Financial Computing/CppCourse/Libraries/googletest_1_14/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					16
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "gtest::@74b7ad5ef13d931557d7"
+		}
+	],
+	"id" : "gmock::@6d03af880cd91be7289d",
+	"name" : "gmock",
+	"nameOnDisk" : "libgmock.a",
+	"paths" : 
+	{
+		"build" : "Libraries/googletest_1_14/googlemock",
+		"source" : "Libraries/googletest_1_14/googlemock"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Libraries/googletest_1_14/googlemock/src/gmock-all.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

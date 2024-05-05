@@ -1,0 +1,105 @@
+
+
+
+*****************************
+*   Testing MeanStdevRate   *
+*****************************
+Parameters: 	 a: 0	 sigma: 0.05	 T: 0.5
+Results:	 Mean: 0.03	 Stdev: 0.0353553
+Parameters: 	 a: 0	 sigma: 0.05	 T: 1.75
+Results:	 Mean: 0.03	 Stdev: 0.0661438
+Parameters: 	 a: 0	 sigma: 0.1	 T: 0.5
+Results:	 Mean: 0.03	 Stdev: 0.0707107
+Parameters: 	 a: 0	 sigma: 0.1	 T: 1.75
+Results:	 Mean: 0.03	 Stdev: 0.132288
+Parameters: 	 a: 0.01	 sigma: 0.05	 T: 0.5
+Results:	 Mean: 0.03	 Stdev: 0.0352671
+Parameters: 	 a: 0.01	 sigma: 0.05	 T: 1.75
+Results:	 Mean: 0.03	 Stdev: 0.0655692
+Parameters: 	 a: 0.01	 sigma: 0.1	 T: 0.5
+Results:	 Mean: 0.03	 Stdev: 0.0705343
+Parameters: 	 a: 0.01	 sigma: 0.1	 T: 1.75
+Results:	 Mean: 0.03	 Stdev: 0.131138
+Parameters: 	 a: 0.1	 sigma: 0.05	 T: 0.5
+Results:	 Mean: 0.03	 Stdev: 0.0344896
+Parameters: 	 a: 0.1	 sigma: 0.05	 T: 1.75
+Results:	 Mean: 0.03	 Stdev: 0.0607569
+Parameters: 	 a: 0.1	 sigma: 0.1	 T: 0.5
+Results:	 Mean: 0.03	 Stdev: 0.0689792
+Parameters: 	 a: 0.1	 sigma: 0.1	 T: 1.75
+Results:	 Mean: 0.03	 Stdev: 0.121514
+
+
+*****************************
+*     Testing BondPrice     *
+*****************************
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 0.5	 T2: 2
+Results:  r: 0.02 bond price: 0.969082; r: 0.04 bond price: 0.940441;
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 0.5	 T2: 3
+Results:  r: 0.02 bond price: 0.947521; r: 0.04 bond price: 0.90131;
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 1.75	 T2: 2
+Results:  r: 0.02 bond price: 0.994876; r: 0.04 bond price: 0.989914;
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 1.75	 T2: 3
+Results:  r: 0.02 bond price: 0.971982; r: 0.04 bond price: 0.947984;
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 0.5	 T2: 2
+Results:  r: 0.02 bond price: 0.965002; r: 0.04 bond price: 0.936482;
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 0.5	 T2: 3
+Results:  r: 0.02 bond price: 0.936482; r: 0.04 bond price: 0.890809;
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 1.75	 T2: 2
+Results:  r: 0.02 bond price: 0.994468; r: 0.04 bond price: 0.989509;
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 1.75	 T2: 3
+Results:  r: 0.02 bond price: 0.962066; r: 0.04 bond price: 0.938313;
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 0.5	 T2: 2
+Results:  r: 0.02 bond price: 0.969; r: 0.04 bond price: 0.940573;
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 0.5	 T2: 3
+Results:  r: 0.02 bond price: 0.947336; r: 0.04 bond price: 0.901693;
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 1.75	 T2: 2
+Results:  r: 0.02 bond price: 0.994876; r: 0.04 bond price: 0.98992;
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 1.75	 T2: 3
+Results:  r: 0.02 bond price: 0.972004; r: 0.04 bond price: 0.948153;
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 0.5	 T2: 2
+Results:  r: 0.02 bond price: 0.965001; r: 0.04 bond price: 0.936691;
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 0.5	 T2: 3
+Results:  r: 0.02 bond price: 0.936623; r: 0.04 bond price: 0.891496;
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 1.75	 T2: 2
+Results:  r: 0.02 bond price: 0.994476; r: 0.04 bond price: 0.989522;
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 1.75	 T2: 3
+Results:  r: 0.02 bond price: 0.962379; r: 0.04 bond price: 0.938764;
+
+
+********************************
+* Testing BondOptionMonteCarlo *
+********************************
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 0.5	 T2: 2
+Results:	 MCMean: 0.154792	 MCStdev: 0.0503197	 exact price for reference: 0.15368
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 0.5	 T2: 3
+Results:	 MCMean: 0.1274	 MCStdev: 0.0786964	 exact price for reference: 0.127295
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 1.75	 T2: 2
+Results:	 MCMean: 0.182739	 MCStdev: 0.0157541	 exact price for reference: 0.182681
+Parameters: 	 a: 0	 sigma: 0.05	 T1: 1.75	 T2: 3
+Results:	 MCMean: 0.155151	 MCStdev: 0.0753334	 exact price for reference: 0.155143
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 0.5	 T2: 2
+Results:	 MCMean: 0.157283	 MCStdev: 0.0963606	 exact price for reference: 0.155429
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 0.5	 T2: 3
+Results:	 MCMean: 0.141895	 MCStdev: 0.140418	 exact price for reference: 0.142659
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 1.75	 T2: 2
+Results:	 MCMean: 0.182911	 MCStdev: 0.0310567	 exact price for reference: 0.182681
+Parameters: 	 a: 0	 sigma: 0.1	 T1: 1.75	 T2: 3
+Results:	 MCMean: 0.161794	 MCStdev: 0.138615	 exact price for reference: 0.163863
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 0.5	 T2: 2
+Results:	 MCMean: 0.153899	 MCStdev: 0.0493223	 exact price for reference: 0.153679
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 0.5	 T2: 3
+Results:	 MCMean: 0.126044	 MCStdev: 0.0761831	 exact price for reference: 0.127188
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 1.75	 T2: 2
+Results:	 MCMean: 0.182677	 MCStdev: 0.0153887	 exact price for reference: 0.182681
+Parameters: 	 a: 0.01	 sigma: 0.05	 T1: 1.75	 T2: 3
+Results:	 MCMean: 0.154614	 MCStdev: 0.0738952	 exact price for reference: 0.155112
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 0.5	 T2: 2
+Results:	 MCMean: 0.153986	 MCStdev: 0.0968719	 exact price for reference: 0.155342
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 0.5	 T2: 3
+Results:	 MCMean: 0.142535	 MCStdev: 0.140262	 exact price for reference: 0.142039
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 1.75	 T2: 2
+Results:	 MCMean: 0.181718	 MCStdev: 0.0310014	 exact price for reference: 0.182681
+Parameters: 	 a: 0.01	 sigma: 0.1	 T1: 1.75	 T2: 3
+Results:	 MCMean: 0.163272	 MCStdev: 0.137294	 exact price for reference: 0.163433
+
